@@ -158,7 +158,7 @@ button{
     display: none;
 }
 
-@media (max-width:375px) {
+@media (max-width:380px) {
     .intro img{
         grid-column: 1/2 ;
         grid-row: 1/2;
@@ -195,10 +195,5 @@ button{
     body{
         margin: 5px;
     }
-}
-.mobileview{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    z-index: 99;
+   
 }
